@@ -1,49 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-3</title>
-    <!-- Font awsome link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!DOCTYPE html>
+        <html lang="en" data-theme="light">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Assignment-3</title>
+            <!-- Font awsome link  -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Google font link  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-        <style>
-        .manrope{
-                font-family: "Manrope", sans-serif;
-                font-optical-sizing: auto;
-                font-weight: <weight>;
-                font-style: normal;
-            }
-        </style>
-    
+            <!-- Google font link  -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+                <style>
+                .manrope{
+                        font-family: "Manrope", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: <weight>;
+                        font-style: normal;
+                    }
+                </style>
+            
 
-    <!-- Tailwind css daisyui link -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
+            <!-- Tailwind css daisyui link -->
+          <script src="https://cdn.tailwindcss.com"></script>
+          <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        </head>
 
-<body class="manrope"> 
-    <!-- Header start here  -->
-    <header>
-
-        
+        <body class="manrope"> 
+            <!-- Header start here  -->
+            <header class="w-11/12 mx-auto">
+        <!-- Navbar start here  -->
+                  <nav>
+                    <div class="navbar bg-base-100">
+                      <div class="navbar-start">
+                        
+                        <button>
+                          <a class=" text-xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-green-300 rounded-full"></i>Rinterio</a>
+                        </button>
+                      </div>
+                      <div class="navbar-center hidden lg:flex">
+                        
+                        <ul class="menu menu-horizontal px-1">
+                          <li><a href="">Home</a></li>
+                          <li><a href="">Services</a></li>
+                          <li><a href="">Portfolio</a></li>
+                          <li><a href="">Blog</a></li>
+                          <li><a href="">Contact us</a></li>
+                        </ul>
+                      </div>
+                      
+                    
+                    
+                      <div class="navbar-end">
+                        <div class="hidden lg:block">
+                          <button class="space-x-3"><i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </button>
+                          <button class="bg-green-300 rounded-full p-2">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full"></i></button> 
+                        </div>
+                        <div class="dropdown">
+                          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars"></i>
+                          </div>
+                          <ul
+                            tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0 shadow">
+                            <li><a href="">Home</a></li>
+                          <li><a href="">Services</a></li>
+                          <li><a href="">Portfolio</a></li>
+                          <li><a href="">Blog</a></li>
+                          <li><a href="">Contact us</a></li>
+                          </ul>         
           
+                        </div>
+                      </div>
+                    
+                    </div>
+                  </nav>
+        <!-- Banner start here  -->
 
-    </header>
-<!-- Main Start here  -->
- <main>
+              <section>
+                <div class="">
+                  <figure class="px-6 pt-6 lg:w-6/12 mx-auto">
+                    <img src="assets/banner.png" alt="">
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title font-extrabold text-3xl lg:text-5xl">A barn house of this design has a striking appearance</h2>
+                    <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,<br> sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <div class="card-actions">
+                      <button class="bg-green-300 rounded-full px-24 py-2 lg:p-2">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-green-400 rounded-full"></i></button> 
+                    </div>
+                  </div>
+                </div>
+              </section>
 
- </main>
+            </header>
+        <!-- Main Start here  -->
+        <main>
 
- <!-- Footer start here  -->
-  <footer>
+        </main>
 
-  </footer>
+        <!-- Footer start here  -->
+          <footer>
 
-</body>
-</html>
+          </footer>
+
+        </body>
+        </html>
